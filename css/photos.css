@@ -91,13 +91,13 @@ img{
 .grid-2 {
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .left-act {
-    margin-left: 20px;
+    
 }
 .right-act {
-    margin-right: 10px;
+    
 }
 .act-img-txt {
     display: flex;
@@ -107,11 +107,12 @@ img{
     margin-top: 10px;
 }
 .act-txt {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-right: 10px;
+    padding: 10px;
 }
 .also{
-    margin-left: 10px;
+    
 }
 
 
@@ -123,7 +124,7 @@ img{
         flex-direction: column;
     }
     .right-main-nav {
-        margin-top: 25px;
+        display: none;
     }
 
     .white-cardd-foot {
@@ -142,32 +143,33 @@ img{
     }
     .green-card {
         height: 100px;
+        margin-top: -70px;
     }
     .whole {
         flex-direction: column;
         margin-top: 90px;
     }
     .white-card-middle {
-        height: 200px;
+
     }
     .white-card-middle-2{
-        height: 355px;
+        
     }
     .act-txt-2 {
         text-align: justify;
     }
     .white-card-middle-3 {
-        height:930px;
+        
     }
     .adobe-items {
         flex-direction: column;
     }
     .white-card-middle-4 {
-        height: 390px;
+        
     }
 
     .white-card {
-        height: 0;
+        
     }
 
     .emergency{
@@ -187,10 +189,14 @@ img{
         margin-right: 5px;
     }
      .white-card-middle-5 {
-         height: 350px;
+         
      }
     .footer{
         grid-template-columns: repeat(2, 1fr)
+    }
+    .contain {
+        width: 95%;
+        margin: 0 25px;
     }
 }
 
@@ -199,7 +205,8 @@ img{
 @media(max-width: 500px) {
 
     .contain {
-        width: 90%;
+        width: 95%;
+        margin: 0 30px;
     }
     .hd{
         text-align: center;
@@ -208,8 +215,7 @@ img{
         flex-direction: column;
     }
     .right-main-nav{
-        flex-wrap: wrap;
-        margin-top: 20px;
+        display: none;
     }
 
     .white-cardd-foot {
@@ -221,45 +227,46 @@ img{
         width: 90%;
     }
     .logo {
-        top: 220px;
-        left: 60px;
+        top: 95px;
+        left: 45px;
         height: 80px;
         width: 80px;
     }
     .green-card {
         height: 100px;
-        margin-top: 10px;
+        margin-top: -80px;
     }
     .whole {
         flex-direction: column;
-        margin-top: 125px;
+        margin-top: 100px;
     }
     .white-card-middle {
-        height: 200px;
+       margin-top: -40px;
     }
     .white-card-middle-2{
-        height: 355px;
+    
     }
     .act-txt-2 {
         text-align: justify;
         margin-top: -5px;
     }
     .white-card-middle-3 {
-        height:1110px;
+       
     }
     .adobe-items {
         flex-direction: column;
     }
     .white-card-middle-4 {
-        height: 390px;
+        
     }
 
     .white-card {
-        height: 0;
+        
     }
 
     .emergency{
-        display: flex
+        display: flex;
+        padding-bottom: 20px;
     }
     .flex-3{
         flex-direction:column;
@@ -272,10 +279,11 @@ img{
    
     .int-2 {
         margin: 0;
-        margin-right: 5px;
+        margin-right: -90;
+        padding-left: 80px;
     }
      .white-card-middle-5 {
-         height: 400px;
+         
      }
     .footer{
         grid-template-columns: repeat(2, 1fr)

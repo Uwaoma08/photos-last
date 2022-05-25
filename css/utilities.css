@@ -26,13 +26,15 @@
 }
 .white-cardd {
     background-color: #fff;
-    height: 250Px;
+   
     border-radius: 8px;
     width: 96%;
 }
 .white-cardd-foot {
     display: flex;
-    margin: 100px 20px
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
 }
 
 .white-cardd-foot img {
@@ -54,81 +56,77 @@
 }
 .white-card {
     background-color: #fff;
-    height: 200Px;
     width: 100%;
     border-radius: 8px;
     margin-bottom: 15px;
 }
 .white-card-middle {
     background-color: #fff;
-    height: 150Px;
     width: 96%;
     border-radius: 8px;
     margin: 15px 0;
+    padding: 20px;
 }
 
 .white-card-middle-2 {
     background-color: #fff;
-    height: 295Px;
     width: 96%;
     border-radius: 8px;
     margin: 15px 0;
+    padding: 20px;
 }
 .white-card-middle-3 {
     background-color: #fff;
-    height: 950Px;
     width: 96%;
     border-radius: 8px;
     margin: 15px 0;
+    padding: 20px;
 }
 
 .white-card-middle-4 {
     background-color: #fff;
-    height: 340;
     width: 96%;   
     border-radius: 8px;
     margin: 15px 0;
+    padding: 20px;
 }
 .white-card-middle-5 {
     background-color: #fff;
-    height: 260;
     width: 96%;
     border-radius: 8px;
     margin: 15px 0;
+    padding: 20px;
 }
 
 .white-card-middle h5, .white-card-middle-2 h5, .white-card-middle p {
     text-align: left;
-    margin-left:20px;
 }
 .white-card-middle-2 .sm{
     margin-top: -20px;
-    margin-left: 10px;
+   
 }
-.white-card-middle-2 .follower{
-    margin-left: 20px ;
-}
+
 .white-card-side {
     background-color: #fff;
-    height: 630Px;
     width: 100%;
     border-radius: 8px;
     margin-bottom: 15px;
+    padding: 10px;
     
 }
 .white-card-side-2 {
     background-color: #fff;
-    height: 450Px;
     width: 100%;
     border-radius: 8px;
     margin-bottom: 15px;
+    padding: 10px;
 }
 .white-card-side-3 {
     background-color: #fff;
-    height: 330Px;
     width: 100%;
     border-radius: 8px;
     margin-bottom: 15px;
+    padding: 10px;
 }
 .white-card-side-3 .nm-new {
     margin-top: 20px;
@@ -322,7 +320,6 @@
 .nm {
     font-size: 15px ;  
     line-height: 1.6;
-    margin-left: 10px;
 }
 .nm-font {
     font-size: 12px ;
@@ -332,21 +329,21 @@
 .nm-new {
     font-size: 12px ;
     line-height: 1.6;
-    padding-top: 15px;
+  
     text-align: left;
-    margin-left: 5px;
+
 }
 
 .hd {
-    font-size: 18px;
-    padding-top:20px ;
-    color: var(--dark);
+   font-size: 18px;
+   padding-bottom: 10px;
+   color: var(--dark);
 }
 
 /*MIDDLE SHOW*/
 /*margins*/
 .h-d{
-    margin-left: 20px;
+    
 }
 .nmm{
     margin-left: 10px;
@@ -376,7 +373,7 @@
 .s-n {
     font-size: 14px;
     color: var(--dark);
-    margin-left: 20px;
+    
     margin-top: 5px;
 }
 .s-m {
@@ -439,10 +436,10 @@
     justify-content: flex-start;
     margin-top: 20px;
     flex-direction: column;
-    margin-left: 5px;
+
 }
 .side-flex .view {
-    margin-left: 20px;
+    margin-left: 10px;
     border-bottom: 1px #eaecf0 solid;
     padding-bottom: 10px;
     width: 100%;
@@ -463,9 +460,9 @@
 }
 .exp-flex {
     display: flex;
-    margin-left: 20px;
+   
     justify-content: flex-start;
-    margin-top: 20PX;
+    margin-top: 10PX;
 }
 .act-txt-2{
     width: 80%;
@@ -484,10 +481,11 @@
     margin-left: 0px;
     margin-top: 5px;
     border: none;
+    margin-bottom: 20px;
 }
 .adobe-items {
     display: flex;
-    margin-left: 20px;
+
 }
 .img-p {
     display: flex;
@@ -495,11 +493,10 @@
     padding-bottom: 10px;
 }
 .i-p {
-    margin-left: 20px;
+    
 }
 .small-txt {
     display: flex;
-    margin-left: 20px;
     border-bottom: 1px #eaecf0 solid;
     margin-top: 20px;
    
@@ -517,7 +514,7 @@
 }
 .flex-3 {
     display: flex;
-    margin-left: 20px;
+    justify-content: space-between;
     margin-top: 20px;
     margin-top: 5px;
     
@@ -534,7 +531,7 @@
 }
 .pub-pro {
     display: flex;
-    margin-left: 40px;
+    
     margin-top: 15px;
 }
 .pub{
@@ -558,7 +555,7 @@ h4{
 }
 .int-items {
     display: flex;
-    margin-left: 15px;
+    
     margin-bottom: 10px;
 }
 .int-p1 {
@@ -573,9 +570,10 @@ h4{
 }
 .int-main {
     display: flex;
+    justify-content: space-between;
 }
 .int-2 {
-    margin-left: 50px;
+    padding-right: 150px;
 }
 
 /*Footer*/
